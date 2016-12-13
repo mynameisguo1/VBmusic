@@ -130,6 +130,15 @@ $(function() {
         if(keycode == 66){
             $('.div1').eq(4).html('<video class="shi_pin" width="620px" height="350px" src="public/images/nvzongtongB.mkv"></video>');
         }
+        if(keycode == 32){
+            var music = document.getElementsByClassName('shi_pin')[0];
+            if(music.paused){
+                music.play();
+            }else{
+                music.pause();
+            }
+        }
+        //alert('keycode:'+keycode+'符号:'+realkey);
     }
     document.onkeydown = keyDown;
 });
