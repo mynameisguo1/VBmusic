@@ -1,0 +1,546 @@
+body {
+  height: 100%;
+  background: #ccc;
+}
+.login {
+  width: 100%;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 3;
+  position: relative;
+}
+.login-inner {
+  width: 1050px;
+  box-sizing: border-box;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+.logo {
+  float: left;
+  width: 100px;
+  height: 50px;
+  margin-top: 15px;
+}
+.logo h1 {
+  height: 50px;
+  background: url("../images/logo.png") no-repeat;
+  background-size: 100px;
+}
+@font-face {
+  font-family: 'iconfont';
+  /* project id??"188302" */
+  src: url('//at.alicdn.com/t/font_1r9b42dqkixdpldi.eot');
+  src: url('//at.alicdn.com/t/font_1r9b42dqkixdpldi.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_1r9b42dqkixdpldi.woff') format('woff'), url('//at.alicdn.com/t/font_1r9b42dqkixdpldi.ttf') format('truetype'), url('//at.alicdn.com/t/font_1r9b42dqkixdpldi.svg#iconfont') format('svg');
+}
+.login-icon {
+  font-family: 'iconfont';
+}
+.login-inner p {
+  float: right;
+  line-height: 50px;
+  font-size: 22px;
+  color: #fff;
+  margin-left: 22px;
+  margin-top: 15px;
+}
+.login-inner p a {
+  color: #fff;
+}
+.search {
+  float: right;
+  margin-left: 20px;
+  position: relative;
+  margin-top: 15px;
+}
+.search-txt {
+  width: 200px;
+  height: 30px;
+  border: 0;
+  margin-top: 10px;
+  border-radius: 3px;
+  padding-left: 30px;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+@font-face {
+  font-family: 'iconfont';
+  /* project id??"188302" */
+  src: url('//at.alicdn.com/t/font_q73hx03d9q2awcdi.eot');
+  src: url('//at.alicdn.com/t/font_q73hx03d9q2awcdi.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_q73hx03d9q2awcdi.woff') format('woff'), url('//at.alicdn.com/t/font_q73hx03d9q2awcdi.ttf') format('truetype'), url('//at.alicdn.com/t/font_q73hx03d9q2awcdi.svg#iconfont') format('svg');
+}
+.search-icon {
+  font-family: 'iconfont';
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  font-size: 20px;
+  color: #ccc;
+}
+.header {
+  width: 100%;
+  position: relative;
+}
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110px;
+  z-index: 999;
+}
+.nav-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: .8;
+  z-index: -1;
+}
+.nav-inner {
+  width: 1200px;
+  margin: 0 auto;
+  height: 55px;
+}
+.nav-ul li {
+  float: left;
+  height: 55px;
+  width: 16.6666%;
+  line-height: 55px;
+  font-size: 20px;
+  text-align: center;
+}
+.nav-ul li a {
+  color: #AEAFAF;
+}
+.nav-ul .nav-a {
+  color: #fff;
+}
+.nav-ul li a:hover {
+  color: #fff;
+}
+.nav-inner .nav-logo {
+  display: block;
+  text-align: center;
+  height: 100%;
+}
+@font-face {
+  font-family: 'iconfont';
+  /* project id��"188302" */
+  src: url('//at.alicdn.com/t/font_zztrnrosl1ikvs4i.eot');
+  src: url('//at.alicdn.com/t/font_zztrnrosl1ikvs4i.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_zztrnrosl1ikvs4i.woff') format('woff'), url('//at.alicdn.com/t/font_zztrnrosl1ikvs4i.ttf') format('truetype'), url('//at.alicdn.com/t/font_zztrnrosl1ikvs4i.svg#iconfont') format('svg');
+}
+.nav-logo i {
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  font-family: 'iconfont';
+  font-size: 35px;
+  color: #f1111f;
+  margin-top: 10px;
+}
+.my_music {
+  height: 100%;
+  margin: 0 7.6%;
+  position: relative;
+  z-index: 3;
+}
+.my_music_bd {
+  position: absolute;
+  top: 20px;
+  bottom: 18%;
+  width: 100%;
+  min-height: 328px;
+  cursor: default;
+}
+.my_music_box {
+  margin-right: 440px;
+}
+.my_box_toolbar {
+  margin-left: 1px;
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 0;
+}
+.my_box_toolbar a {
+  display: inline-block;
+  position: relative;
+  opacity: .8;
+  border: 0;
+  height: 36px;
+  line-height: 38px;
+  color: #fff;
+  min-width: 74px;
+  text-align: center;
+  border-radius: 2px;
+  font-size: 14px;
+  margin-right: 6px;
+  padding: 0 23px;
+  white-space: nowrap;
+}
+.my_box_a_i {
+  opacity: .6;
+  width: 16px;
+  height: 16px;
+  vertical-align: -4px;
+  display: inline-block;
+  margin-right: 6px;
+  background: url("../images/icon_sprite.png") no-repeat;
+}
+.my_box_a_fore1 {
+  background-position: -60px -20px;
+}
+.my_box_a_fore2 {
+  background-position: -20px -20px;
+}
+.my_box_a_fore3 {
+  background-position: -40px -240px;
+}
+.my_box_a_fore4 {
+  background-position: -100px -20px;
+}
+.my_box_a_fore5 {
+  background-position: -40px -300px;
+}
+.my_box_a_span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 2px;
+  border: 1px solid #fff;
+  opacity: .2;
+}
+.my_box_toolbar a:hover {
+  opacity: 1;
+}
+.my_box_toolbar a:hover .my_box_a_span {
+  opacity: 1;
+}
+.my_box_toolbar a:hover .my_box_a_i {
+  opacity: 1;
+}
+.my_box_main {
+  overflow: hidden;
+  position: relative;
+}
+.my_box_main_list {
+  overflow: hidden;
+  font-size: 14px;
+  color: #ccc;
+}
+.my_main_list_line {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  opacity: .2;
+  filter: alpha(opacity=20);
+}
+.my_main_list_ul1 {
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+  padding-left: 62px;
+  padding-right: 100px;
+}
+.my_ul2_li2 {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -9px;
+  width: 14px;
+  height: 14px;
+  line-height: 14px;
+  border: 1px solid #ccc;
+}
+.my_ul1_li1 {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -9px;
+  width: 14px;
+  height: 14px;
+  line-height: 14px;
+  border: 1px solid #ccc;
+}
+.mg_ul2_li1 {
+  border-color: #fff;
+  background-image: url("../images/icon_sprite.png");
+  background-position: -60px -80px;
+}
+.mg_ul2_li2 {
+  border-color: #fff;
+  background-image: url("../images/icon_sprite.png");
+  background-position: -60px -80px;
+}
+.my_ul1_check {
+  width: 14px;
+  height: 14px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.my_ul1_li2 {
+  width: 68%;
+  float: left;
+  position: relative;
+}
+.my_ul1_li3 {
+  width: 26%;
+  float: left;
+  padding-left: 20px;
+}
+.my_ul1_li4 {
+  position: absolute;
+  top: 0;
+  right: 38px;
+  width: 50px;
+}
+.my_music_bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../images/zjl_img.jpg");
+  background-size: cover;
+  background-position: 50%;
+  filter: blur(90px);
+  -webkit-filter: blur(90px);
+  opacity: .6;
+}
+.my_music_bg02 {
+  background-color: rgba(0, 0, 0, 0.35);
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.mg_main_li01 {
+  width: 100%;
+}
+.my_ul1_txt {
+  float: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 78%;
+  margin-right: 8px;
+}
+.my_box_info {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 340px;
+  height: 100%;
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+}
+.my_box_info_a {
+  position: relative;
+  display: block;
+  width: 186px;
+  height: 186px;
+  margin: auto;
+}
+.my_box_info_pic {
+  vertical-align: middle;
+  width: 186px;
+  height: 186px;
+}
+.my_box_info_a:after {
+  content: "";
+  position: absolute;
+  left: 9px;
+  top: 0;
+  width: 201px;
+  height: 180px;
+  background: url("../images/album_cover_player.png") no-repeat 0 0;
+}
+.my_box_info_name,
+.my_box_info_singer,
+.my_box_info_album {
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 28px;
+  color: #ccc;
+}
+.my_box_info_name a,
+.my_box_info_singer a,
+.my_box_info_album a {
+  color: #ccc;
+}
+.my_box_info_name a:hover,
+.my_box_info_singer a:hover,
+.my_box_info_album a:hover {
+  color: #fff;
+}
+.my_box_info_name {
+  margin-top: 15px;
+}
+.my_music_ft {
+  width: 84.8%;
+  height: 11%;
+  margin: 0 7.6%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 4;
+}
+.my_music_btn {
+  position: absolute;
+  background: url("../images/player_2.png");
+  background-size: 126px;
+  opacity: .8;
+}
+.my_music_btn:hover {
+  opacity: 1;
+}
+.my_btn_top {
+  top: 4px;
+  left: 0;
+  width: 19px;
+  height: 20px;
+  background-position: 0 -30px;
+}
+.my_btn_stop {
+  top: 0;
+  left: 76px;
+  width: 21px;
+  height: 29px;
+  background-position: 0 0;
+}
+.my_btn_start {
+  background-position: -30px 0;
+}
+.my_btn_bottom {
+  top: 4px;
+  left: 148px;
+  width: 19px;
+  height: 20px;
+  background-position: 0 -52px;
+}
+.play_music {
+  position: relative;
+  margin: 0 412px 0 208px;
+}
+.play_music_info {
+  padding-right: 90px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #ccc;
+}
+.play_music_info a {
+  color: #ccc;
+}
+.play_music_info a:hover {
+  color: #fff;
+}
+.play_music_time {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #ccc;
+}
+.play_progress {
+  padding-top: 6px;
+  height: 8px;
+  cursor: pointer;
+}
+.play_progress_inner {
+  position: relative;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.play_progress_load {
+  width: 0%;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.2);
+}
+.play_progress_play {
+  width: 0%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.7);
+}
+.play_progress_dot {
+  top: -4px;
+  right: -4px;
+  width: 10px;
+  height: 10px;
+  background-position: 0 -162px;
+  opacity: 1;
+  filter: none;
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+  .my_music {
+    width: 992px;
+    margin: 0 auto;
+  }
+  .my_box_toolbar a {
+    min-width: 50px;
+    width: 58px;
+  }
+}
+@media (max-width: 992px) and (min-width: 768px) {
+  .login-inner {
+    width: 768px;
+  }
+  .my_box_info {
+    display: none;
+  }
+  .my_music_box {
+    margin-right: 0;
+  }
+  .play_music {
+    margin-right: 212px;
+  }
+}
+@media (max-width: 768px) {
+  .login-inner {
+    width: 100%;
+    padding: 0;
+  }
+  .search {
+    display: none;
+  }
+  .my_box_info {
+    display: none;
+  }
+  .login-inner {
+    min-width: 100%;
+  }
+  .my_music_box {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .play_music {
+    margin-right: 50px;
+  }
+  .my_music {
+    margin: 0;
+  }
+  .my_main_list_ul1 {
+    padding-left: 20px;
+    padding-right: 40px;
+  }
+  .my_ul1_li2 {
+    width: 30%;
+  }
+  .my_box_toolbar a {
+    display: block;
+  }
+}

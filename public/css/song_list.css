@@ -1,0 +1,328 @@
+body {
+  background: #333;
+}
+.login {
+  width: 100%;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 3;
+  position: relative;
+}
+.login-inner {
+  width: 1050px;
+  box-sizing: border-box;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+.logo {
+  float: left;
+  width: 100px;
+  height: 50px;
+  margin-top: 15px;
+}
+.logo h1 {
+  height: 50px;
+  background: url("../images/logo.png") no-repeat;
+  background-size: 100px;
+}
+@font-face {
+  font-family: 'iconfont';
+  /* project id??"188302" */
+  src: url('//at.alicdn.com/t/font_1r9b42dqkixdpldi.eot');
+  src: url('//at.alicdn.com/t/font_1r9b42dqkixdpldi.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_1r9b42dqkixdpldi.woff') format('woff'), url('//at.alicdn.com/t/font_1r9b42dqkixdpldi.ttf') format('truetype'), url('//at.alicdn.com/t/font_1r9b42dqkixdpldi.svg#iconfont') format('svg');
+}
+.login-icon {
+  font-family: 'iconfont';
+}
+.login-inner p {
+  float: right;
+  line-height: 50px;
+  font-size: 22px;
+  color: #fff;
+  margin-left: 22px;
+  margin-top: 15px;
+}
+.login-inner p a {
+  color: #fff;
+}
+.search {
+  float: right;
+  margin-left: 20px;
+  position: relative;
+  margin-top: 15px;
+}
+.search-txt {
+  width: 200px;
+  height: 30px;
+  border: 0;
+  margin-top: 10px;
+  border-radius: 3px;
+  padding-left: 30px;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+@font-face {
+  font-family: 'iconfont';
+  /* project id??"188302" */
+  src: url('//at.alicdn.com/t/font_q73hx03d9q2awcdi.eot');
+  src: url('//at.alicdn.com/t/font_q73hx03d9q2awcdi.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_q73hx03d9q2awcdi.woff') format('woff'), url('//at.alicdn.com/t/font_q73hx03d9q2awcdi.ttf') format('truetype'), url('//at.alicdn.com/t/font_q73hx03d9q2awcdi.svg#iconfont') format('svg');
+}
+.search-icon {
+  font-family: 'iconfont';
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  font-size: 20px;
+  color: #ccc;
+}
+.header {
+  width: 100%;
+  position: relative;
+}
+.header:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 110px;
+  clear: both;
+}
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110px;
+  z-index: 999;
+}
+.nav-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: .8;
+  z-index: -1;
+}
+.nav-inner {
+  width: 1200px;
+  margin: 0 auto;
+  height: 55px;
+}
+.nav-ul li {
+  float: left;
+  height: 55px;
+  width: 16.6666%;
+  line-height: 55px;
+  font-size: 20px;
+  text-align: center;
+}
+.nav-ul li a {
+  color: #AEAFAF;
+}
+.nav-ul .nav-a {
+  color: #fff;
+}
+.nav-ul li a:hover {
+  color: #fff;
+}
+.nav-inner .nav-logo {
+  display: block;
+  text-align: center;
+  height: 100%;
+}
+@font-face {
+  font-family: 'iconfont';
+  /* project id��"188302" */
+  src: url('//at.alicdn.com/t/font_zztrnrosl1ikvs4i.eot');
+  src: url('//at.alicdn.com/t/font_zztrnrosl1ikvs4i.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_zztrnrosl1ikvs4i.woff') format('woff'), url('//at.alicdn.com/t/font_zztrnrosl1ikvs4i.ttf') format('truetype'), url('//at.alicdn.com/t/font_zztrnrosl1ikvs4i.svg#iconfont') format('svg');
+}
+.nav-logo i {
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  font-family: 'iconfont';
+  font-size: 35px;
+  color: #f1111f;
+  margin-top: 10px;
+}
+.song_content {
+  width: 1500px;
+  height: 480px;
+  margin-left: -67px;
+  margin-top: 20px;
+  transition: all 1s;
+}
+.song {
+  width: 180px;
+  height: 180px;
+  float: left;
+  background: #ccc;
+  margin-left: 60px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px #000;
+  border-radius: 10px;
+  position: relative;
+}
+.song_bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-top: 120px solid transparent;
+  border-right: 180px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 30px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px 0 10px 10px;
+  transform: rotateZ(180deg);
+}
+.song_introduce {
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+  width: 100px;
+  height: 30px;
+  background: #f2f2f2;
+  border-radius: 5px 0 0 5px;
+  color: #333;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+}
+.song img {
+  width: 180px;
+  height: 180px;
+  border-radius: 10px;
+}
+.song_1 {
+  transform: rotateZ(-10deg) translateY(90px);
+  transition: all 1s;
+}
+.song_2 {
+  transform: rotateZ(-7deg) translateY(55px);
+}
+.song_3 {
+  transform: rotateZ(-3deg) translateY(35px);
+}
+.song_4 {
+  transform: rotateZ(3deg) translateY(35px);
+}
+.song_5 {
+  transform: rotateZ(7deg) translateY(55px);
+}
+.song_6 {
+  transform: rotateZ(10deg) translateY(90px);
+}
+.song_position {
+  position: absolute;
+  left: -70px;
+  top: 180px;
+}
+.song_position_1 {
+  transition: all 1s;
+  top: 290px;
+}
+.song_inner {
+  position: absolute;
+  width: 500px;
+  height: 280px;
+  background: rgba(255, 255, 255, 0.3);
+  left: 250px;
+  top: -30px;
+  border-radius: 10px;
+  transform: rotateZ(3deg) scale(0);
+  opacity: 0;
+  transition: all 1s;
+}
+.song_inner_1 {
+  opacity: 1;
+  transform: rotateZ(3deg) scale(1);
+}
+.song_inner_btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: #fff;
+  border-radius: 10px;
+  z-index: 100;
+}
+.list_introduced {
+  width: 100%;
+  height: 45px;
+}
+.list_introduced span {
+  display: block;
+  float: left;
+  box-sizing: border-box;
+  line-height: 45px;
+  text-align: center;
+  color: #000;
+}
+.list_introduced .list_span_01 {
+  width: 150px;
+  text-align: left;
+  padding-left: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.list_span_01 a {
+  color: #fff;
+}
+.list_introduced .list_span_02 {
+  width: 60px;
+  text-align: center;
+  margin-right: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.list_span_02 a {
+  color: #fff;
+}
+.list_introduced .list_span_03 {
+  width: 70px;
+  text-align: left;
+  margin-right: 50px;
+}
+.list_span_box {
+  float: left;
+  width: 70px;
+  height: 6px;
+  margin: 17px 0 0 0;
+  background: url("../images/heatBg.jpg") repeat-x;
+}
+.list_span_box_value {
+  width: 84%;
+  height: 6px;
+  background: url("../images/heatValueBg.jpg") repeat-x;
+}
+.list_introduced .list_span_04 {
+  width: 50px;
+  float: left;
+}
+.list_span_icon {
+  display: block;
+  width: 8px;
+  height: 11px;
+  background: url("../images/icon%20(1).png") 0 -229px;
+  margin-top: 12px;
+}
+.song_fore1 .list_span_box_value {
+  width: 76%;
+}
+.song_fore2 .list_span_box_value {
+  width: 87%;
+}
+.song_fore3 .list_span_box_value {
+  width: 74%;
+}
+.song_fore4 .list_span_box_value {
+  width: 52%;
+}
+.song_inner_fore1 .list_span_box_value {
+  width: 76%;
+}

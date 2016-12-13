@@ -1,0 +1,299 @@
+body {
+  background: #101113;
+}
+.login {
+  width: 100%;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 3;
+  position: relative;
+}
+.login-inner {
+  width: 1050px;
+  box-sizing: border-box;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+.logo {
+  float: left;
+  width: 100px;
+  height: 50px;
+  margin-top: 15px;
+}
+.logo h1 {
+  height: 50px;
+  background: url("../images/logo.png") no-repeat;
+  background-size: 100px;
+}
+@font-face {
+  font-family: 'iconfont';
+  /* project id??"188302" */
+  src: url('//at.alicdn.com/t/font_1r9b42dqkixdpldi.eot');
+  src: url('//at.alicdn.com/t/font_1r9b42dqkixdpldi.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_1r9b42dqkixdpldi.woff') format('woff'), url('//at.alicdn.com/t/font_1r9b42dqkixdpldi.ttf') format('truetype'), url('//at.alicdn.com/t/font_1r9b42dqkixdpldi.svg#iconfont') format('svg');
+}
+.login-icon {
+  font-family: 'iconfont';
+}
+.login-inner p {
+  float: right;
+  line-height: 50px;
+  font-size: 22px;
+  color: #fff;
+  margin-left: 22px;
+  margin-top: 15px;
+}
+.login-inner p a {
+  color: #fff;
+}
+.search {
+  float: right;
+  margin-left: 20px;
+  position: relative;
+  margin-top: 15px;
+}
+.search-txt {
+  width: 200px;
+  height: 30px;
+  border: 0;
+  margin-top: 10px;
+  border-radius: 3px;
+  padding-left: 30px;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+@font-face {
+  font-family: 'iconfont';
+  /* project id??"188302" */
+  src: url('//at.alicdn.com/t/font_q73hx03d9q2awcdi.eot');
+  src: url('//at.alicdn.com/t/font_q73hx03d9q2awcdi.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_q73hx03d9q2awcdi.woff') format('woff'), url('//at.alicdn.com/t/font_q73hx03d9q2awcdi.ttf') format('truetype'), url('//at.alicdn.com/t/font_q73hx03d9q2awcdi.svg#iconfont') format('svg');
+}
+.search-icon {
+  font-family: 'iconfont';
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  font-size: 20px;
+  color: #ccc;
+}
+.nav-inner2 {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  right: 30px;
+  top: 55px;
+  border: 1px solid #fff;
+  display: none;
+  border-radius: 10px;
+  z-index: 10000;
+}
+.nav-inner2 div {
+  width: 30px;
+  height: 2px;
+  background: #fff;
+  margin: 0 auto 5px;
+}
+.nav-inner2 .nav-line {
+  margin: 15px auto 5px;
+}
+.nav-inner2-ul {
+  display: none;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.nav-inner2-ul li {
+  display: block;
+  text-align: center;
+  color: #fff;
+  line-height: 30px;
+  font-size: 20px;
+}
+.header {
+  width: 100%;
+  position: relative;
+}
+.header:after {
+  content: '';
+  clear: both;
+  height: 110px;
+  width: 100%;
+  display: block;
+}
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110px;
+  z-index: 999;
+}
+.nav-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: .8;
+  z-index: -1;
+}
+.nav-inner {
+  width: 1200px;
+  margin: 0 auto;
+  height: 55px;
+}
+.nav-ul li {
+  float: left;
+  height: 55px;
+  width: 16.6666%;
+  line-height: 55px;
+  font-size: 20px;
+  text-align: center;
+}
+.nav-ul li a {
+  color: #AEAFAF;
+}
+.nav-ul .nav-a {
+  color: #fff;
+}
+.nav-ul li a:hover {
+  color: #fff;
+}
+.nav-inner .nav-logo {
+  display: block;
+  text-align: center;
+  height: 100%;
+}
+@font-face {
+  font-family: 'iconfont';
+  /* project id??"188302" */
+  src: url('//at.alicdn.com/t/font_zztrnrosl1ikvs4i.eot');
+  src: url('//at.alicdn.com/t/font_zztrnrosl1ikvs4i.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_zztrnrosl1ikvs4i.woff') format('woff'), url('//at.alicdn.com/t/font_zztrnrosl1ikvs4i.ttf') format('truetype'), url('//at.alicdn.com/t/font_zztrnrosl1ikvs4i.svg#iconfont') format('svg');
+}
+.nav-logo i {
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  font-family: 'iconfont';
+  font-size: 35px;
+  color: #f1111f;
+  margin-top: 10px;
+}
+.nav-inner2 {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  right: 30px;
+  top: 55px;
+  border: 1px solid #fff;
+  display: none;
+  border-radius: 10px;
+  z-index: 10000;
+}
+.nav-inner2 div {
+  width: 30px;
+  height: 2px;
+  background: #fff;
+  margin: 0 auto 5px;
+}
+.nav-inner2 .nav-line {
+  margin: 15px auto 5px;
+}
+.nav-inner2-ul {
+  display: none;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.nav-inner2-ul li {
+  display: block;
+  text-align: center;
+  color: #fff;
+  line-height: 30px;
+  font-size: 20px;
+}
+.wish_content {
+  width: 100%;
+}
+.wish_content_btn {
+  width: 100%;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.3);
+  text-align: center;
+  line-height: 100px;
+}
+.wish_content_btn .wish_btn {
+  font-size: 25px;
+  color: #fff;
+  padding: 10px;
+}
+.wish_box {
+  width: 360px;
+  height: 340px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -180px;
+  margin-top: -150px;
+  background: #fff;
+  border-radius: 10px;
+  display: none;
+}
+.wish_box .wish_box_header {
+  width: 100%;
+  height: 50px;
+  background: #000;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+  color: #fff;
+  position: relative;
+}
+.wish_box p {
+  height: 30px;
+  line-height: 30px;
+  font-size: 18px;
+  padding-left: 20px;
+}
+.wish_box .input1 {
+  display: block;
+  height: 30px;
+  font-size: 18px;
+  margin-left: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+.wish_box .wish_inner {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  padding: 5px;
+  width: 300px;
+  height: 80px;
+  margin-left: 20px;
+}
+.wish_box .wish_tijiao {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 70px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+.wish_box .wish_guanbi {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}

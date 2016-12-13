@@ -1,0 +1,309 @@
+body {
+  background: #101113;
+}
+.login {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 3;
+}
+.login-inner {
+  width: 1050px;
+  box-sizing: border-box;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+.logo {
+  float: left;
+  width: 100px;
+  height: 50px;
+  margin-top: 15px;
+}
+.logo h1 {
+  height: 50px;
+  background: url("../images/logo.png") no-repeat;
+  background-size: 100px;
+}
+@font-face {
+  font-family: 'iconfont';
+  /* project id??"188302" */
+  src: url('//at.alicdn.com/t/font_1r9b42dqkixdpldi.eot');
+  src: url('//at.alicdn.com/t/font_1r9b42dqkixdpldi.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_1r9b42dqkixdpldi.woff') format('woff'), url('//at.alicdn.com/t/font_1r9b42dqkixdpldi.ttf') format('truetype'), url('//at.alicdn.com/t/font_1r9b42dqkixdpldi.svg#iconfont') format('svg');
+}
+.login-icon {
+  font-family: 'iconfont';
+}
+.login-inner p {
+  float: right;
+  line-height: 50px;
+  font-size: 22px;
+  color: #fff;
+  margin-left: 22px;
+  margin-top: 15px;
+}
+.login-inner p a {
+  color: #fff;
+}
+.search {
+  float: right;
+  margin-left: 20px;
+  position: relative;
+  margin-top: 15px;
+}
+.search-txt {
+  width: 200px;
+  height: 30px;
+  border: 0;
+  margin-top: 10px;
+  border-radius: 3px;
+  padding-left: 30px;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+@font-face {
+  font-family: 'iconfont';
+  /* project id??"188302" */
+  src: url('//at.alicdn.com/t/font_q73hx03d9q2awcdi.eot');
+  src: url('//at.alicdn.com/t/font_q73hx03d9q2awcdi.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_q73hx03d9q2awcdi.woff') format('woff'), url('//at.alicdn.com/t/font_q73hx03d9q2awcdi.ttf') format('truetype'), url('//at.alicdn.com/t/font_q73hx03d9q2awcdi.svg#iconfont') format('svg');
+}
+.search-icon {
+  font-family: 'iconfont';
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  font-size: 20px;
+  color: #ccc;
+}
+.Shuffling_figure {
+  width: 100%;
+  height: 650px;
+  position: relative;
+}
+.figure_li {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+.figure_fore1 {
+  background: url("../images/Download-img1.jpg") no-repeat;
+  background-size: 100% 100%;
+  display: block;
+}
+.figure_fore2 {
+  background: url("../images/Download-img2.jpg") no-repeat;
+  background-size: 100% 100%;
+  display: none;
+}
+.figure_fore3 {
+  background: url("../images/Download-img3.jpg") no-repeat;
+  background-size: 100% 100%;
+  display: none;
+}
+.figure_fore4 {
+  background: url("../images/Download-img4.jpg") no-repeat;
+  background-size: 100% 100%;
+  display: none;
+}
+.figure_li_bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: .3;
+}
+.figure_inner {
+  position: absolute;
+  right: 50px;
+  top: 150px;
+  font-size: 30px;
+}
+.figure_fore1 .figure_inner {
+  left: 40px;
+}
+.figure_p {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.figure_a {
+  float: left;
+  display: block;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-right: 20px;
+}
+.figure_li .figure_a {
+  color: #fff;
+}
+.figure_p1 {
+  float: left;
+  color: #fff;
+  margin-top: 10px;
+}
+.figure_btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 190px;
+  text-align: center;
+  z-index: 3;
+}
+.figure_btn_line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #fff;
+  opacity: .12;
+  overflow: hidden;
+  display: block;
+}
+.figure_item {
+  display: inline-block;
+  overflow: hidden;
+  width: 110px;
+  height: 170px;
+  margin-right: 185px;
+  position: relative;
+  opacity: .6;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
+}
+.figure_pc {
+  background: url("../images/img_index.png") no-repeat;
+  background-position: -336px -824px;
+}
+.figure_mac {
+  background: url("../images/img_index.png") no-repeat;
+  background-position: -224px -824px;
+}
+.figure_iphone {
+  background: url("../images/img_index.png") no-repeat;
+  background-position: -112px -824px;
+}
+.figure_android {
+  background: url("../images/img_index.png") no-repeat;
+  background-position: 0 -824px;
+  margin-right: 0;
+}
+.figure_opacity {
+  opacity: 1;
+}
+.footer {
+  width: 100%;
+  height: 200px;
+  border-top: 1px solid #ccc;
+}
+.footer-inner {
+  width: 100%;
+  text-align: center;
+}
+.footer-item {
+  font-size: 40px;
+  color: #fff;
+  margin-top: 40px;
+}
+.footer-item2 {
+  font-size: 30px;
+  color: #fff;
+  margin-top: 10px;
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+  .figure_item {
+    margin-right: 100px;
+    height: 136px;
+  }
+  .figure_inner {
+    font-size: 1.8em;
+  }
+  .figure_pc {
+    zoom: 0.9;
+  }
+  .figure_mac {
+    zoom: 0.9;
+  }
+  .figure_iphone {
+    zoom: 0.9;
+  }
+  .figure_android {
+    zoom: 0.9;
+  }
+}
+@media (max-width: 992px) and (min-width: 768px) {
+  .login-inner {
+    width: 768px;
+  }
+  .figure_item {
+    margin-right: 0px;
+    height: 105px;
+  }
+  .figure_inner {
+    font-size: 1.5em;
+  }
+  .figure_pc {
+    zoom: 0.8;
+  }
+  .figure_mac {
+    zoom: 0.8;
+  }
+  .figure_iphone {
+    zoom: 0.8;
+  }
+  .figure_android {
+    zoom: 0.8;
+  }
+}
+@media (max-width: 768px) {
+  .login-inner {
+    width: 100%;
+    padding: 0;
+  }
+  .figure_inner {
+    font-size: 1em;
+  }
+  .figure_inner {
+    top: 50px;
+    font-size: 1em;
+  }
+  .search {
+    display: none;
+  }
+  .figure_item {
+    margin-right: 0px;
+    height: 70px;
+  }
+  .figure_pc {
+    zoom: 0.7;
+    background-position: -336px -845px;
+  }
+  .figure_mac {
+    zoom: 0.7;
+    background-position: -224px -845px;
+  }
+  .figure_iphone {
+    zoom: 0.7;
+    background-position: -112px -845px;
+  }
+  .figure_android {
+    zoom: 0.7;
+    background-position: 0 -845px;
+  }
+  .footer-item {
+    font-size: 30px;
+  }
+  .footer-item2 {
+    font-size: 20px;
+  }
+}

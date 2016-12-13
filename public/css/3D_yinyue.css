@@ -1,0 +1,101 @@
+body {
+  background: #000;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  perspective: 1500px;
+}
+.rong_qi {
+  width: 1190px;
+  height: 530px;
+  transform-style: preserve-3d;
+  perspective: 1500px;
+  position: absolute;
+  top: 60px;
+  left: 95px;
+}
+.big_rong_qi {
+  width: 1250px;
+  height: 530px;
+  transform-style: preserve-3d;
+  perspective: 1500px;
+  position: absolute;
+  top: 60px;
+  left: 62px;
+}
+.div1,
+.div2 {
+  width: 60px;
+  height: 80px;
+  background: rgba(0, 127, 127, 0.698039);
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.5);
+  border: 1px solid rgba(127, 255, 255, 0.25);
+  border-radius: 5px;
+  position: absolute;
+  transition: all 4s ease-in-out;
+  transform-style: preserve-3d;
+  perspective: 150px;
+  transform-origin: 50% 0;
+  z-index: 999;
+}
+.btn_y {
+  display: block;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+  line-height: 20px;
+  background: rgba(0, 127, 127, 0.698039);
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.5);
+  border: 1px solid rgba(127, 255, 255, 0.25);
+  margin: 0 auto;
+}
+.rong_qi1,
+.rong_qi2,
+.rong_qi3,
+.rong_qi4,
+.rong_qi5,
+.rong_qi6 {
+  position: absolute;
+}
+.rong_qi1 {
+  left: 500px;
+  top: 200px;
+  transform: rotateX(-90deg);
+}
+.rong_qi2 {
+  left: 500px;
+  top: 474px;
+  transform: rotateX(-90deg);
+}
+.rong_qi3 {
+  left: 500px;
+  top: 200px;
+  transform: rotateY(90deg);
+}
+.rong_qi4 {
+  left: 772px;
+  top: 200px;
+  transform: rotateY(90deg);
+}
+.rong_qi5 {
+  left: 500px;
+  top: 200px;
+  transform: translateZ(0);
+}
+.rong_qi6 {
+  left: 500px;
+  top: 200px;
+  transform: translateZ(-273px);
+}
+.shi_pin {
+  position: absolute;
+  z-index: 1000;
+  border-radius: 10px;
+}
+.p_biaoqian {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.75);
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
