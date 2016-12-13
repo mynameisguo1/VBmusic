@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="public/css/reset.css"/>
+    <link rel="stylesheet" href="public/css/my_music.css"/>
+    <script src="public/js/jquery_1_11_1min.js"></script>
+</head>
+<body>
+<!--登录注册-->
+<div class="login">
+    <div class="login-inner">
+        <div class="logo">
+            <a href="index.html"><h1></h1></a>
+        </div>
+        <div class="search">
+            <input class="search-txt" type="text" placeholder="七里香"/>
+            <div class="search-icon">&#xe643;</div>
+        </div>
+        <p>
+            <i class="login-icon">&#xe7cd;</i>
+            <a href="zhuce.html">注册</a>
+        </p>
+        <p>
+            <i class="login-icon">&#xe62f;</i>
+            <a href="login.html">登录</a>
+        </p>
+    </div>
+</div>
+<!--内容-->
+<div class="my_music">
+    <div class="my_music_bd">
+        <div class="my_music_box">
+            <div class="my_box_toolbar">
+                <a class="fore1_a" href="javascript:;">
+                    <i class="my_box_a_i my_box_a_fore1"></i>收藏<span class="my_box_a_span"></span>
+                </a>
+                <a class="fore2_a" href="javascript:;">
+                    <i class="my_box_a_i my_box_a_fore2"></i>添加到<span class="my_box_a_span"></span>
+                </a>
+                <a class="fore3_a" href="javascript:;">
+                    <i class="my_box_a_i my_box_a_fore3"></i>下载<span class="my_box_a_span"></span>
+                </a>
+                <a class="fore4_a" href="javascript:;">
+                    <i class="my_box_a_i my_box_a_fore4"></i>删除<span class="my_box_a_span"></span>
+                </a>
+                <a class="fore5_a" href="javascript:;">
+                    <i class="my_box_a_i my_box_a_fore5"></i>清空列表<span class="my_box_a_span"></span>
+                </a>
+            </div>
+            <div class="my_box_main">
+                <div class="my_box_main_list">
+                    <i class="my_main_list_line"></i>
+                    <ul class="my_main_list_ul1">
+                        <li class="my_ul2_li2">
+                            <input class="my_ul1_check" type="checkbox"/>
+                        </li>
+                        <li class="my_ul1_li2">歌曲</li>
+                        <li class="my_ul1_li3">歌手</li>
+                        <li class="my_ul1_li4">时长</li>
+                    </ul>
+                    <i class="my_main_list_line"></i>
+                    <ul class="my_main_list_ul2"></ul>
+                </div>
+            </div>
+            <div class="my_box_info">
+                <a class="my_box_info_a" href="javascript:;">
+                    <img class="my_box_info_pic" src="public/images/player_cover.png" alt=""/>
+                </a>
+                <div class="my_box_info_name" id="song_name"></div>
+                <div class="my_box_info_singer" id="song_singer"></div>
+                <div class="my_box_info_album" id="song_album"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="my_music_ft">
+    <a href="javascript:;" class="my_music_btn my_btn_top"></a>
+    <a href="javascript:;" class="my_music_btn my_btn_stop"></a>
+    <a href="javascript:;" class="my_music_btn my_btn_bottom"></a>
+    <div class="play_music">
+        <div class="play_music_info"></div>
+        <div class="play_music_time"></div>
+        <div class="play_progress">
+            <div class="play_progress_inner">
+                <div class="play_progress_load"></div>
+                <div class="play_progress_play"></div>
+            </div>
+        </div>
+    </div>
+    <div class="audio">
+        <audio class="source" autoplay></audio>
+    </div>
+</div>
+<!--背景-->
+<div class="my_music_bg"></div>
+<div class="my_music_bg02"></div>
+<script src="public/js/my_music.js"></script>
+</body>
+</html>

@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<!--
+                                                           .
+                        ....:;$$$$$$$$$$$
+                    ..;;;$$$$$$$$$$$$$$$$:..
+                 .:$$$$$$$$$$$$$$$$$$$$$$$$$$:.
+               .;$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$;.
+             .;$$$$$$$$$$$$$$$$$$$$$$$;$$$$$$$$$$;.
+            ;$$$$$$$$$$$$$$$$$$$;$$$$$$$$$$$$$$$$$$;
+           ;$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+          $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+         :$$$$$$  $$$$$$$$$$$$$  $$$          $$$$$$$$;
+        .$$$$$$$$  $$$$$$$$$$$  $$$$  $$$$$$$  $$$$$$$$.
+        :$$$$$$$$$  $$$$$$$$$  $$$$$  $$$$$$$$  $$$$$$$:
+        ;$$$$$$$$$$  $$$$$$$  $$$$$$  $$$$$$$  $$$$$$$$;
+        ;$$$$$$$$$$$  $$$$$  $$$$$$$  $$$$$  $$$$$$$$$$;
+        :$$$$$$$$$$$$  $$$  $$$$$$$$  $$$$$$$  $$$$$$$$:
+        .$$$$$$$$$$$$$  $  $$$$$$$$$  $$$$$$$$  $$$$$$$.
+         ;$$$$$$$$$$$$$   $$$$$$$$$$  $$$$$$$  $$$$$$$;
+          $$$$$$$$$$$$$$ $$$$$$$$$$$          $$$$$$$$
+           $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+            ;$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$;
+             .$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$.
+               .$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$:
+                 .;$$$$$$$$$$$$$$$$$$$$$$$$$$;.
+                    .:$$$$$$$$$$$$$$$$$$$$:.
+                        ...:;;;;;;;;:...
+
+         交互:XX & 视觉:XX & 重构:XX & 前端:Sky先
+                         VB音乐团队倾情出品
+-->
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/reset.css"/>
+    <link rel="stylesheet" href="public/css/index.css"/>
+    <script src="public/js/jquery_1_11_1min.js"></script>
+</head>
+<body>
+    <!--登录注册-->
+    <div class="login">
+        <div class="login-inner">
+            <div class="logo">
+                <h1><a href="3D_yinyue.html"></a></h1>
+            </div>
+            <div class="search">
+                <input class="search-txt" type="text" placeholder="七里香"/>
+                <div class="search-icon">&#xe643;</div>
+            </div>
+            <p>
+                <i class="login-icon">&#xe7cd;</i>
+                <a href="zhuce.html">注册</a>
+            </p>
+            <p>
+                <i class="login-icon">&#xe62f;</i>
+                <a href="login.html">登录</a>
+            </p>
+        </div>
+    </div>
+    <div class="nav-inner2">
+        <div class="nav-line"></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="nav-inner2-ul">
+        <ul>
+            <li>
+                <a class="nav-a" href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="My_music.html">我的音乐</a>
+            </li>
+            <li>
+                <a href="song_list.html">歌曲榜单</a>
+            </li>
+            <li>
+                <a href="mv_channels.html">MV频道</a>
+            </li>
+            <li>
+                <a href="Singer_list.html">歌手榜单</a>
+            </li>
+            <li>
+                <a href="Download.html">下载客户端</a>
+            </li>
+        </ul>
+    </div>
+    <!--头部-->
+    <div class="header">
+        <!--导航-->
+        <div class="nav">
+            <div class="nav-bg"></div>
+            <div class="nav-inner">
+                <div class="nav-logo">
+                    <i>&#xe617;</i>
+                </div>
+            </div>
+            <div class="nav-inner">
+                <ul class="nav-ul">
+                    <li>
+                        <a class="nav-a" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="My_music.html">我的音乐</a>
+                    </li>
+                    <li>
+                        <a href="song_list.html">歌曲榜单</a>
+                    </li>
+                    <li>
+                        <a href="mv_channels.html">MV频道</a>
+                    </li>
+                    <li>
+                        <a href="Singer_list.html">歌手榜单</a>
+                    </li>
+                    <li>
+                        <a href="Download.html">下载客户端</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--轮播图-->
+    <div class="lunBo">
+        <a class="tabLeft" href="javascript:;">
+            <span></span>
+        </a>
+        <a class="tabRight" href="javascript:;">
+            <span></span>
+        </a>
+        <ul>
+            <li>
+                <a class="lunBo-li-a" href="javascript:;">
+                    <div class="lunBo-a" href="javascript:;"></div>
+                    <img src="public/images/lunbo-img1.jpg" alt=""/>
+                    <div class="lunBo-inner">
+                        <h1>母带音频</h1>
+                        <p>震撼首发</p>
+                    </div>
+                </a>
+                <a class="bannerDown" href="javascript:;">下载客户端</a>
+            </li>
+            <li>
+                <a class="lunBo-li-a" href="javascript:;">
+                    <div class="lunBo-a" href="javascript:;"></div>
+                    <img src="public/images/lunbo-img2.jpg" alt=""/>
+                    <div class="lunBo-inner">
+                        <h1>壮哉</h1>
+                        <p>我五千年中华古韵</p>
+                    </div>
+                </a>
+                <a class="bannerDown" href="javascript:;">下载客户端</a>
+            </li>
+            <li>
+                <a class="lunBo-li-a" href="javascript:;">
+                    <div class="lunBo-a" href="javascript:;"></div>
+                    <img src="public/images/lunbo-img3.jpg" alt=""/>
+                    <div class="lunBo-inner">
+                        <h1>唱入内心里的</h1>
+                        <p>骚痒地带</p>
+                    </div>
+                </a>
+                <a class="bannerDown" href="javascript:;">下载客户端</a>
+            </li>
+            <li>
+                <a class="lunBo-li-a" href="javascript:;">
+                    <div class="lunBo-a" href="javascript:;"></div>
+                    <img src="public/images/lunbo-img4.jpg" alt=""/>
+                    <div class="lunBo-inner">
+                        <h1>激情演绎热辣新歌曲！</h1>
+                        <p>不容错过的绝美女声！</p>
+                    </div>
+                </a>
+                <a class="bannerDown" href="javascript:;">下载客户端</a>
+            </li>
+            <li>
+                <a class="lunBo-li-a" href="javascript:;">
+                    <div class="lunBo-a" href="javascript:;"></div>
+                    <img src="public/images/lunbo-img1.jpg" alt=""/>
+                    <div class="lunBo-inner">
+                        <h1>母带音频</h1>
+                        <p>震撼首发</p>
+                    </div>
+                </a>
+                <a class="bannerDown" href="javascript:;">下载客户端</a>
+            </li>
+        </ul>
+        <div class="point">
+            <div class="pointBox">
+                <a class="pointBox-a" href="javascript:;"></a>
+                <a href="javascript:;"></a>
+                <a href="javascript:;"></a>
+                <a href="javascript:;"></a>
+            </div>
+        </div>
+    </div>
+    <!--歌手-->
+    <div class="Singer">
+        <div class="list-inner Singer-inner">
+            <div class="list-inner-tit">
+                <h2>
+                    <i class="list-icon Singer-icon">歌 手</i>
+                </h2>
+                <i class="line-l"></i>
+                <i class="line-r"></i>
+            </div>
+            <a href="javascript:;" class="list-btn">
+                全部
+                <i class="list_btn_icon"></i>
+            </a>
+            <div class="Singer-ul">
+                <a class="Singer-l" href="javascript:;">
+                    <span>&#xe600;</span>
+                </a>
+                <a class="Singer-r" href="javascript:;">
+                    <span>&#xe63c;</span>
+                </a>
+                <div class="Sing-boxul">
+                    <ul class="Singer-ul1 clearfix">
+                        <li class="Singer-li">
+                            <img src="public/images/Singer-img1.jpg" alt=""/>
+                            <div class="jieshao-bg"></div>
+                            <div class="Singer-jieshao">
+                                <span class="Singer-name">Taylor Swift</span>
+                                <span>代表作：Love Story</span>
+                                <div class="num">
+                                    <span class="share">49515</span>
+                                    <span class="like">71955</span>
+                                </div>
+                            </div>
+                            <div class="gequ-bg"></div>
+                            <div class="Singer-gequ">
+                                <h2>热门单曲</h2>
+                                <ul>
+                                    <li>
+                                        <span>1.</span>
+                                        <a href="javascript:;">Sparks Fly</a>
+                                    </li>
+                                    <li>
+                                        <span>2.</span>
+                                        <a href="javascript:;">Style</a>
+                                    </li>
+                                    <li>
+                                        <span>3.</span>
+                                        <a href="javascript:;">I Knew You Were Trouble</a>
+                                    </li>
+                                    <li>
+                                        <span>4.</span>
+                                        <a href="javascript:;">You Belong With Me</a>
+                                    </li>
+                                    <li>
+                                        <span>5.</span>
+                                        <a href="javascript:;">Blank Space</a>
+                                    </li>
+                                </ul>
+                                <a class="more" href="javascript:;">查看全部</a>
+                                <div class="top-line"></div>
+                                <div class="left-line"></div>
+                            </div>
+                        </li>
+                        <li class="Singer-li">
+                            <img src="public/images/Singer-img2.jpg" alt=""/>
+                            <div class="jieshao-bg"></div>
+                            <div class="Singer-jieshao">
+                                <span class="Singer-name">蔡依林</span>
+                                <span>代表作：看我72变</span>
+                                <div class="num">
+                                    <span class="share">263532</span>
+                                    <span class="like">277988</span>
+                                </div>
+                            </div>
+                            <div class="gequ-bg"></div>
+                            <div class="Singer-gequ">
+                                <h2>热门单曲</h2>
+                                <ul>
+                                    <li>
+                                        <span>1.</span>
+                                        <a href="javascript:;">Ego-Holic恋我癖</a>
+                                    </li>
+                                    <li>
+                                        <span>2.</span>
+                                        <a href="javascript:;">布拉格广场</a>
+                                    </li>
+                                    <li>
+                                        <span>3.</span>
+                                        <a href="javascript:;">天空</a>
+                                    </li>
+                                    <li>
+                                        <span>4.</span>
+                                        <a href="javascript:;">说爱你 电影《空中拜金女》中文主题曲</a>
+                                    </li>
+                                    <li>
+                                        <span>5.</span>
+                                        <a href="javascript:;">日不落</a>
+                                    </li>
+                                </ul>
+                                <a class="more" href="javascript:;">查看全部</a>
+                                <div class="top-line"></div>
+                                <div class="left-line"></div>
+                            </div>
+                        </li>
+                        <li class="Singer-li">
+                            <img src="public/images/Singer-img3.jpg" alt=""/>
+                            <div class="jieshao-bg"></div>
+                            <div class="Singer-jieshao">
+                                <span class="Singer-name">周杰伦</span>
+                                <span>代表作：七里香</span>
+                                <div class="num">
+                                    <span class="share">1920356</span>
+                                    <span class="like">1966203</span>
+                                </div>
+                            </div>
+                            <div class="gequ-bg"></div>
+                            <div class="Singer-gequ">
+                                <h2>热门单曲</h2>
+                                <ul>
+                                    <li>
+                                        <span>1.</span>
+                                        <a href="javascript:;">告白气球</a>
+                                    </li>
+                                    <li>
+                                        <span>2.</span>
+                                        <a href="javascript:;">青花瓷</a>
+                                    </li>
+                                    <li>
+                                        <span>3.</span>
+                                        <a href="javascript:;">晴天</a>
+                                    </li>
+                                    <li>
+                                        <span>4.</span>
+                                        <a href="javascript:;">夜曲</a>
+                                    </li>
+                                    <li>
+                                        <span>5.</span>
+                                        <a href="javascript:;">东风破</a>
+                                    </li>
+                                </ul>
+                                <a class="more" href="javascript:;">查看全部</a>
+                                <div class="top-line"></div>
+                                <div class="left-line"></div>
+                            </div>
+                        </li>
+                        <li class="Singer-li">
+                            <img src="public/images/Singer-img4.jpg" alt=""/>
+                            <div class="jieshao-bg"></div>
+                            <div class="Singer-jieshao">
+                                <span class="Singer-name">Ed Sheeran</span>
+                                <span>代表作：Thinking Out Loud</span>
+                                <div class="num">
+                                    <span class="share">23053</span>
+                                    <span class="like">54260</span>
+                                </div>
+                            </div>
+                            <div class="gequ-bg"></div>
+                            <div class="Singer-gequ">
+                                <h2>热门单曲</h2>
+                                <ul>
+                                    <li>
+                                        <span>1.</span>
+                                        <a href="javascript:;">Thinking Out Loud</a>
+                                    </li>
+                                    <li>
+                                        <span>2.</span>
+                                        <a href="javascript:;">Photograph</a>
+                                    </li>
+                                    <li>
+                                        <span>3.</span>
+                                        <a href="javascript:;">Don‘t</a>
+                                    </li>
+                                    <li>
+                                        <span>4.</span>
+                                        <a href="javascript:;">Lego House</a>
+                                    </li>
+                                    <li>
+                                        <span>5.</span>
+                                        <a href="javascript:;">Sing</a>
+                                    </li>
+                                </ul>
+                                <a class="more" href="javascript:;">查看全部</a>
+                                <div class="top-line"></div>
+                                <div class="left-line"></div>
+                            </div>
+                        </li>
+                        <li class="Singer-li">
+                            <img src="public/images/Singer-img5.jpg" alt=""/>
+                            <div class="jieshao-bg"></div>
+                            <div class="Singer-jieshao">
+                                <span class="Singer-name">鹿晗</span>
+                                <span>代表作：勋章</span>
+                                <div class="num">
+                                    <span class="share">220532</span>
+                                    <span class="like">257436</span>
+                                </div>
+                            </div>
+                            <div class="gequ-bg"></div>
+                            <div class="Singer-gequ">
+                                <h2>热门单曲</h2>
+                                <ul>
+                                    <li>
+                                        <span>1.</span>
+                                        <a href="javascript:;">致爱 Your Song</a>
+                                    </li>
+                                    <li>
+                                        <span>2.</span>
+                                        <a href="javascript:;">某时某刻 Catch Me When I Fall</a>
+                                    </li>
+                                    <li>
+                                        <span>3.</span>
+                                        <a href="javascript:;">我们的明天(Single Version 电影《重返20岁》主题曲)</a>
+                                    </li>
+                                    <li>
+                                        <span>4.</span>
+                                        <a href="javascript:;">有点儿意思(CCTV音乐频道)</a>
+                                    </li>
+                                    <li>
+                                        <span>5.</span>
+                                        <a href="javascript:;">哟波色哟，我是鹿晗(偶像本色)</a>
+                                    </li>
+                                </ul>
+                                <a class="more" href="javascript:;">查看全部</a>
+                                <div class="top-line"></div>
+                                <div class="left-line"></div>
+                            </div>
+                        </li>
+                        <li class="Singer-li">
+                            <img src="public/images/Singer-img1.jpg" alt=""/>
+                            <div class="jieshao-bg"></div>
+                            <div class="Singer-jieshao">
+                                <span class="Singer-name">Taylor Swift</span>
+                                <span>代表作：Love Story</span>
+                                <div class="num">
+                                    <span class="share">49515</span>
+                                    <span class="like">71955</span>
+                                </div>
+                            </div>
+                            <div class="gequ-bg"></div>
+                            <div class="Singer-gequ">
+                                <h2>热门单曲</h2>
+                                <ul>
+                                    <li>
+                                        <span>1.</span>
+                                        <a href="javascript:;">Sparks Fly</a>
+                                    </li>
+                                    <li>
+                                        <span>2.</span>
+                                        <a href="javascript:;">Style</a>
+                                    </li>
+                                    <li>
+                                        <span>3.</span>
+                                        <a href="javascript:;">I Knew You Were Trouble</a>
+                                    </li>
+                                    <li>
+                                        <span>4.</span>
+                                        <a href="javascript:;">You Belong With Me</a>
+                                    </li>
+                                    <li>
+                                        <span>5.</span>
+                                        <a href="javascript:;">Blank Space</a>
+                                    </li>
+                                </ul>
+                                <a class="more" href="javascript:;">查看全部</a>
+                                <div class="top-line"></div>
+                                <div class="left-line"></div>
+                            </div>
+                        </li>
+                        <li class="Singer-li">
+                            <img src="public/images/Singer-img2.jpg" alt=""/>
+                            <div class="jieshao-bg"></div>
+                            <div class="Singer-jieshao">
+                                <span class="Singer-name">蔡依林</span>
+                                <span>代表作：看我72变</span>
+                                <div class="num">
+                                    <span class="share">263532</span>
+                                    <span class="like">277988</span>
+                                </div>
+                            </div>
+                            <div class="gequ-bg"></div>
+                            <div class="Singer-gequ">
+                                <h2>热门单曲</h2>
+                                <ul>
+                                    <li>
+                                        <span>1.</span>
+                                        <a href="javascript:;">Ego-Holic恋我癖</a>
+                                    </li>
+                                    <li>
+                                        <span>2.</span>
+                                        <a href="javascript:;">布拉格广场</a>
+                                    </li>
+                                    <li>
+                                        <span>3.</span>
+                                        <a href="javascript:;">天空</a>
+                                    </li>
+                                    <li>
+                                        <span>4.</span>
+                                        <a href="javascript:;">说爱你 电影《空中拜金女》中文主题曲</a>
+                                    </li>
+                                    <li>
+                                        <span>5.</span>
+                                        <a href="javascript:;">日不落</a>
+                                    </li>
+                                </ul>
+                                <a class="more" href="javascript:;">查看全部</a>
+                                <div class="top-line"></div>
+                                <div class="left-line"></div>
+                            </div>
+                        </li>
+                        <li class="Singer-li">
+                            <img src="public/images/Singer-img3.jpg" alt=""/>
+                            <div class="jieshao-bg"></div>
+                            <div class="Singer-jieshao">
+                                <span class="Singer-name">周杰伦</span>
+                                <span>代表作：七里香</span>
+                                <div class="num">
+                                    <span class="share">1920356</span>
+                                    <span class="like">1966203</span>
+                                </div>
+                            </div>
+                            <div class="gequ-bg"></div>
+                            <div class="Singer-gequ">
+                                <h2>热门单曲</h2>
+                                <ul>
+                                    <li>
+                                        <span>1.</span>
+                                        <a href="javascript:;">告白气球</a>
+                                    </li>
+                                    <li>
+                                        <span>2.</span>
+                                        <a href="javascript:;">青花瓷</a>
+                                    </li>
+                                    <li>
+                                        <span>3.</span>
+                                        <a href="javascript:;">晴天</a>
+                                    </li>
+                                    <li>
+                                        <span>4.</span>
+                                        <a href="javascript:;">夜曲</a>
+                                    </li>
+                                    <li>
+                                        <span>5.</span>
+                                        <a href="javascript:;">东风破</a>
+                                    </li>
+                                </ul>
+                                <a class="more" href="javascript:;">查看全部</a>
+                                <div class="top-line"></div>
+                                <div class="left-line"></div>
+                            </div>
+                        </li>
+                        <li class="Singer-li">
+                            <img src="public/images/Singer-img4.jpg" alt=""/>
+                            <div class="jieshao-bg"></div>
+                            <div class="Singer-jieshao">
+                                <span class="Singer-name">Ed Sheeran</span>
+                                <span>代表作：Thinking Out Loud</span>
+                                <div class="num">
+                                    <span class="share">23053</span>
+                                    <span class="like">54260</span>
+                                </div>
+                            </div>
+                            <div class="gequ-bg"></div>
+                            <div class="Singer-gequ">
+                                <h2>热门单曲</h2>
+                                <ul>
+                                    <li>
+                                        <span>1.</span>
+                                        <a href="javascript:;">Thinking Out Loud</a>
+                                    </li>
+                                    <li>
+                                        <span>2.</span>
+                                        <a href="javascript:;">Photograph</a>
+                                    </li>
+                                    <li>
+                                        <span>3.</span>
+                                        <a href="javascript:;">Don‘t</a>
+                                    </li>
+                                    <li>
+                                        <span>4.</span>
+                                        <a href="javascript:;">Lego House</a>
+                                    </li>
+                                    <li>
+                                        <span>5.</span>
+                                        <a href="javascript:;">Sing</a>
+                                    </li>
+                                </ul>
+                                <a class="more" href="javascript:;">查看全部</a>
+                                <div class="top-line"></div>
+                                <div class="left-line"></div>
+                            </div>
+                        </li>
+                        <li class="Singer-li">
+                            <img src="public/images/Singer-img5.jpg" alt=""/>
+                            <div class="jieshao-bg"></div>
+                            <div class="Singer-jieshao">
+                                <span class="Singer-name">鹿晗</span>
+                                <span>代表作：勋章</span>
+                                <div class="num">
+                                    <span class="share">220532</span>
+                                    <span class="like">257436</span>
+                                </div>
+                            </div>
+                            <div class="gequ-bg"></div>
+                            <div class="Singer-gequ">
+                                <h2>热门单曲</h2>
+                                <ul>
+                                    <li>
+                                        <span>1.</span>
+                                        <a href="javascript:;">致爱 Your Song</a>
+                                    </li>
+                                    <li>
+                                        <span>2.</span>
+                                        <a href="javascript:;">某时某刻 Catch Me When I Fall</a>
+                                    </li>
+                                    <li>
+                                        <span>3.</span>
+                                        <a href="javascript:;">我们的明天(Single Version 电影《重返20岁》主题曲)</a>
+                                    </li>
+                                    <li>
+                                        <span>4.</span>
+                                        <a href="javascript:;">有点儿意思(CCTV音乐频道)</a>
+                                    </li>
+                                    <li>
+                                        <span>5.</span>
+                                        <a href="javascript:;">哟波色哟，我是鹿晗(偶像本色)</a>
+                                    </li>
+                                </ul>
+                                <a class="more" href="javascript:;">查看全部</a>
+                                <div class="top-line"></div>
+                                <div class="left-line"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--排行榜-->
+    <div class="toplist_box">
+        <div class="toplist_bg"></div>
+        <div class="list-inner">
+            <div class="list-inner-tit">
+                <h2>
+                    <i class="list-icon Singer-icon">排行榜</i>
+                </h2>
+                <i class="line-l"></i>
+                <i class="line-r"></i>
+            </div>
+            <a href="javascript:;" class="list-btn">
+                全部
+                <i class="list_btn_icon"></i>
+            </a>
+            <div>
+                <ul>
+                    <li class="list-fore list-fore1">
+                        <i class="list-fore-bg"></i>
+                        <i class="list-fore-play"><a href="javascript:;"></a></i>
+                        <i class="list-fore-line"></i>
+                        <h3 class="list-fore-h3">
+                            <a href="javascript:;">
+                                <i class="list-fore-h3-icon"></i>
+                                <div class="list-fore-h3-tit">流行指数</div>
+                            </a>
+                        </h3>
+                        <ul class="list-songlist">
+                            <li>
+                                <div class="list-number">1</div>
+                                <div class="list-name">
+                                    <a href="javascript:;">你说</a>
+                                </div>
+                                <div class="list-artist">
+                                    <a href="javascript:;">易烊千玺</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list-number">2</div>
+                                <div class="list-name">
+                                    <a href="javascript:;">Give You My World</a>
+                                </div>
+                                <div class="list-artist">
+                                    <a href="javascript:;">张杰</a>
+                                </div>
+                            </li>
+                            <li class="songlist-li3">
+                                <div class="list-number">3</div>
+                                <div class="list-name">
+                                    <a href="javascript:;">下雪的季节</a>
+                                </div>
+                                <div class="list-artist">
+                                    <a href="javascript:;">本兮</a>
+                                </div>
+                            </li>
+                            <li class="songlist-li3">
+                                <div class="list-number">4</div>
+                                <div class="list-name">
+                                    <a href="javascript:;">西门少年</a>
+                                </div>
+                                <div class="list-artist">
+                                    <a href="javascript:;">李宇春</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list-fore list-fore2">
+                        <div class="list-fore-item"></div>
+                        <i class="list-fore-bg"></i>
+                        <i class="list-fore-play"><a href="javascript:;"></a></i>
+                        <i class="list-fore-line"></i>
+                        <h3 class="list-fore-h3">
+                            <a href="javascript:;">
+                                <i class="list-fore-h3-icon"></i>
+                                <div class="list-fore-h3-tit">热歌</div>
+                            </a>
+                        </h3>
+                        <ul class="list-songlist">
+                            <li>
+                                <div class="list-number">1</div>
+                                <div class="list-name">
+                                    <a href="javascript:;">演员</a>
+                                </div>
+                                <div class="list-artist">
+                                    <a href="javascript:;">薛之谦</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list-number">2</div>
+                                <div class="list-name">
+                                    <a href="javascript:;">丑八怪</a>
+                                </div>
+                                <div class="list-artist">
+                                    <a href="javascript:;">薛之谦</a>
+                                </div>
+                            </li>
+                            <li class="songlist-li3">
+                                <div class="list-number">3</div>
+                                <div class="list-name">
+                                    <a href="javascript:;">告白气球</a>
+                                </div>
+                                <div class="list-artist">
+                                    <a href="javascript:;">周杰伦</a>
+                                </div>
+                            </li>
+                            <li class="songlist-li3">
+                                <div class="list-number">4</div>
+                                <div class="list-name">
+                                    <a href="javascript:;">多幸运</a>
+                                </div>
+                                <div class="list-artist">
+                                    <a href="javascript:;">韩安旭</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list-fore list-fore3">
+                        <div class="list-fore-item"></div>
+                        <i class="list-fore-bg"></i>
+                        <i class="list-fore-play"><a href="javascript:;"></a></i>
+                        <i class="list-fore-line"></i>
+                        <h3 class="list-fore-h3">
+                            <a href="javascript:;">
+                                <i class="list-fore-h3-icon"></i>
+                                <div class="list-fore-h3-tit">新歌</div>
+                            </a>
+                        </h3>
+                        <ul class="list-songlist">
+                            <li>
+                                <div class="list-number">1</div>
+                                <div class="list-name">
+                                    <a href="javascript:;">你说</a>
+                                </div>
+                                <div class="list-artist">
+                                    <a href="javascript:;">易烊千玺</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list-number">2</div>
+                                <div class="list-name">
+                                    <a href="javascript:;">Give You My World</a>
+                                </div>
+                                <div class="list-artist">
+                                    <a href="javascript:;">张杰</a>
+                                </div>
+                            </li>
+                            <li class="songlist-li3">
+                                <div class="list-number">3</div>
+                                <div class="list-name">
+                                    <a href="javascript:;">下雪的季节</a>
+                                </div>
+                                <div class="list-artist">
+                                    <a href="javascript:;">本兮</a>
+                                </div>
+                            </li>
+                            <li class="songlist-li3">
+                                <div class="list-number">4</div>
+                                <div class="list-name">
+                                    <a href="javascript:;">西门少年</a>
+                                </div>
+                                <div class="list-artist">
+                                    <a href="javascript:;">李宇春</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="list-fore list-fore4">
+                        <div class="list-fore-item"></div>
+                        <i class="list-fore-bg"></i>
+                        <i class="list-fore-play"><a href="javascript:;"></a></i>
+                        <i class="list-fore-line"></i>
+                        <h3 class="list-fore-h3">
+                            <a href="javascript:;">
+                                <i class="list-fore-h3-icon"></i>
+                                <div class="list-fore-h3-tit">欧美</div>
+                            </a>
+                        </h3>
+                        <ul class="list-songlist">
+                            <li>
+                                <div class="list-number">1</div>
+                                <div class="list-name">
+                                    <a href="javascript:;">Versace On The Floor</a>
+                                </div>
+                                <div class="list-artist">
+                                    <a href="javascript:;">Bruno Mars</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list-number">2</div>
+                                <div class="list-name">
+                                    <a href="javascript:;">Don't Wanna Know</a>
+                                </div>
+                                <div class="list-artist">
+                                    <a href="javascript:;">Maroon 5/Kendrick Lamar</a>
+                                </div>
+                            </li>
+                            <li class="songlist-li3">
+                                <div class="list-number">3</div>
+                                <div class="list-name">
+                                    <a href="javascript:;">Traveling Light</a>
+                                </div>
+                                <div class="list-artist">
+                                    <a href="javascript:;">Leonard Cohen</a>
+                                </div>
+                            </li>
+                            <li class="songlist-li3">
+                                <div class="list-number">4</div>
+                                <div class="list-name">
+                                    <a href="javascript:;">Does It Feel</a>
+                                </div>
+                                <div class="list-artist">
+                                    <a href="javascript:;">Charlie Puth</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--合作伙伴-->
+    <div class="friends">
+        <div class="friends-inner">
+            <div class="friends-left">
+                <p class="friends-tit">合作伙伴：</p>
+                <ul>
+                    <li>
+                        <a href="javascript:;">周杰伦</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">周董</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">小周周</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">杰伦</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">卤蛋</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">少爷</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">杰王子</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">黑轮</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">超人</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">北鼻</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">JAY</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">周导</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">周杰伦</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">周董</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">小周周</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">杰伦</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">卤蛋</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">少爷</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">杰王子</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">黑轮</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">超人</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">北鼻</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">JAY</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">周导</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="friends-right">
+                <p class="friends-tit">推荐音乐：</p>
+                <div class="friends-yy">
+                    <ul class="friends-yy-ul">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--尾部-->
+    <div class="footer">
+        <div class="footer-inner">
+            <p class="footer-item">WB音乐网站</p>
+            <p class="footer-item2">由中国，美国，英国，德国，俄罗斯等国家支持！</p>
+        </div>
+    </div>
+    <script src="public/js/index.js"></script>
+</body>
+</html>
