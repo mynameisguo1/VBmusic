@@ -152,4 +152,8 @@ $(function(){
     //    $('.list-fore').stop().removeClass('testr');
     //    $('.list-fore-bg').stop().css('opacity','0');
     //})
+    //双击事件
+    $('.login').dblclick(function(){
+        window.location.href="3D_yinyue.html";
+    });
 });
