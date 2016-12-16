@@ -12,6 +12,7 @@ body {
   position: absolute;
   top: 60px;
   left: 95px;
+  z-index: 1;
 }
 .big_rong_qi {
   width: 1250px;
@@ -89,7 +90,7 @@ body {
 .shi_pin {
   position: absolute;
   z-index: 1000;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .p_biaoqian {
   text-align: center;
@@ -98,4 +99,98 @@ body {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+.div1 img {
+  width: 270px;
+  border-radius: 5px;
+  position: absolute;
+}
+.my_box_a_i {
+  opacity: .6;
+  width: 16px;
+  height: 16px;
+  vertical-align: -4px;
+  display: block;
+  background: url("../images/icon_sprite.png") no-repeat;
+  margin: 50% auto 0;
+}
+.my_box_a_fore1 {
+  background-position: -60px -20px;
+}
+.my_box_a_fore2 {
+  background-position: -20px -20px;
+}
+.my_box_a_fore3 {
+  background-position: -40px -240px;
+}
+.my_box_a_fore4 {
+  background-position: -100px -20px;
+}
+.my_box_a_fore5 {
+  background-position: -40px -300px;
+}
+.shanchu_box,
+.shanchu_box1 {
+  position: fixed;
+  z-index: 9999;
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+  left: 50%;
+  margin-left: -150px;
+  top: 100px;
+  background: rgba(0, 0, 0, 0.3);
+  display: none;
+}
+.shanchu_box1 {
+  height: 356px;
+}
+.shanchu_box p,
+.shanchu_box1 p {
+  text-align: center;
+}
+.shanchu_txt,
+.shanchu_txt1,
+.shanchu_txt2,
+.shanchu_txt3 {
+  border: 1px solid #ccc;
+  background: none;
+  border-radius: 5px;
+  margin: 20px 20px;
+  height: 30px;
+  color: #fff;
+  text-align: center;
+}
+.shanchu_span,
+.shanchu_span1 {
+  display: block;
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+}
+.shanchu_span1 {
+  margin-top: 0;
+}
+.shanchu_btn,
+.shanchu_btn1 {
+  float: right;
+  margin-right: 20px;
+  background: rgba(0, 127, 127, 0.698039);
+  border: 1px solid rgba(127, 255, 255, 0.25);
+  text-align: center;
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.shanchu_btn_g,
+.shanchu_btn_g1 {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
 }
