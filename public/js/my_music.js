@@ -76,7 +76,7 @@ $(function(){
                 $('.source').attr("src",v_Url);
                 //clearInterval(timer);
                 function a_time(){
-                    if(timeIndex == m_Time*100){
+                    if(timeIndex == 100/m_Time){
                         clearInterval(timer);
                     }
                     var minutes = parseInt((timeIndex % 3600) / 60);
@@ -110,7 +110,7 @@ $(function(){
                     var aTime = xml[btn_xia].time;
                     var m_Time = 100/(Number(xml[btn_xia].m_time));
                     function a_time(){
-                        if(zanTing == m_Time*100){
+                        if(zanTing == 100/m_Time){
                             clearInterval(timer);
                         }
                         var minutes = parseInt((zanTing % 3600) / 60);
@@ -165,6 +165,9 @@ $(function(){
                 $('.source').attr("src",v_Url);
                 //clearInterval(timer);
                 function a_time(){
+                    if(timeIndex == 100/m_Time){
+                        clearInterval(timer);
+                    }
                     var minutes = parseInt((timeIndex % 3600) / 60);
                     var seconds = parseInt(timeIndex % 60);
                     minutes = minutes < 10 ? "0" + minutes : minutes;
@@ -216,6 +219,9 @@ $(function(){
                 $('.source').attr("src",v_Url);
                 //clearInterval(timer);
                 function a_time(){
+                    if(timeIndex == 100/m_Time){
+                        clearInterval(timer);
+                    }
                     var minutes = parseInt((timeIndex % 3600) / 60);
                     var seconds = parseInt(timeIndex % 60);
                     minutes = minutes < 10 ? "0" + minutes : minutes;
@@ -248,5 +254,12 @@ $(function(){
         }
     });
     //点击歌曲上的勾，下面全部打勾
-    $('.my_ul2_li2')
+    $('.my_ul2_li2').click(function(){
+        $(this).toggleClass('mg_ul2_li2');
+        if($('.my_ul2_li2').hasClass('mg_ul2_li2')){
+            $('.my_ul1_li1').addClass('mg_ul2_li1');
+        }else{
+            $('.my_ul1_li1').removeClass('mg_ul2_li1');
+        }
+    });
 });

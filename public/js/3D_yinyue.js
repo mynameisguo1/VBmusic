@@ -61,6 +61,10 @@ $(function() {
             $('.div1').eq(31).html('<i class="my_box_a_i my_box_a_fore4"></i>');
             //下面代码是添加一个添加标志
             $('.div1').eq(32).html('<i class="my_box_a_i my_box_a_fore2"></i>');
+            //下面代码是添加一个添加标志
+            $('.div1').eq(32).html('<i class="my_box_a_i my_box_a_fore2"></i>');
+            //下面代码是添加一个返回标志
+            $('.div1').eq(49).html('<i class="my_box_a_i my_box_a_fore0"></i><a class="fanhui_a" href="index.html"></a>');
         },5500);
         $('.div1').on('click','.shi_pin',function(){
             var music = document.getElementsByClassName('shi_pin')[0];
