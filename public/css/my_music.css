@@ -22,9 +22,10 @@ body {
   margin-top: 15px;
 }
 .logo h1 {
-  height: 50px;
+  height: 56px;
+  width: 161px;
   background: url("../images/logo.png") no-repeat;
-  background-size: 100px;
+  background-size: 161px;
 }
 @font-face {
   font-family: 'iconfont';
@@ -270,6 +271,11 @@ body {
   border: 1px solid #ccc;
 }
 .mg_ul2_li1 {
+  border-color: #fff;
+  background-image: url("../images/icon_sprite.png");
+  background-position: -60px -80px;
+}
+.mg_ul2_li2 {
   border-color: #fff;
   background-image: url("../images/icon_sprite.png");
   background-position: -60px -80px;

@@ -21,9 +21,10 @@ body {
   margin-top: 15px;
 }
 .logo h1 {
-  height: 50px;
+  height: 56px;
+  width: 161px;
   background: url("../images/logo.png") no-repeat;
-  background-size: 100px;
+  background-size: 161px;
 }
 @font-face {
   font-family: 'iconfont';

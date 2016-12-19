@@ -11,7 +11,8 @@ body {
   perspective: 1500px;
   position: absolute;
   top: 60px;
-  left: 95px;
+  left: 50%;
+  margin-left: -595px;
   z-index: 1;
 }
 .big_rong_qi {
@@ -114,6 +115,9 @@ body {
   background: url("../images/icon_sprite.png") no-repeat;
   margin: 50% auto 0;
 }
+.my_box_a_fore0 {
+  background: url("../images/fanhui-home.png");
+}
 .my_box_a_fore1 {
   background-position: -60px -20px;
 }
@@ -193,4 +197,24 @@ body {
   height: 20px;
   border-radius: 50%;
   background: #fff;
+}
+.fanhui_a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.logo {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  top: 15px;
+  left: 5%;
+}
+.logo h1 {
+  height: 34px;
+  width: 104px;
+  background: url("../images/logo.png") no-repeat;
+  background-size: 99px;
 }

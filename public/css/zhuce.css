@@ -21,9 +21,10 @@ body {
   height: 50px;
 }
 .logo h1 {
-  height: 50px;
+  height: 56px;
+  width: 161px;
   background: url("../images/logo.png") no-repeat;
-  background-size: 100px;
+  background-size: 161px;
 }
 .ZC_content {
   width: 1210px;

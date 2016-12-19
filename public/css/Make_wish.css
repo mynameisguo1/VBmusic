@@ -18,9 +18,10 @@
   margin-top: 15px;
 }
 .logo h1 {
-  height: 50px;
+  height: 56px;
+  width: 161px;
   background: url("../images/logo.png") no-repeat;
-  background-size: 100px;
+  background-size: 161px;
 }
 @font-face {
   font-family: 'iconfont';
@@ -104,6 +105,19 @@
   color: #fff;
   line-height: 30px;
   font-size: 20px;
+}
+.nav-inner .nav-logo {
+  display: block;
+  text-align: center;
+  height: 100%;
+}
+.nav-logo i {
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  font-size: 35px;
+  color: #f1111f;
+  margin-top: 10px;
 }
 .header {
   width: 100%;
